@@ -1,0 +1,18 @@
+{
+  "name": "resi",
+  "version": "1.0.0",
+  "description": "General Discord Bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "The resi dev team",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "nekos.life": "^2.0.7",
+    "snekfetch": "^4.0.4",
+    "sqlite": "^4.0.23"
+  }
+}
