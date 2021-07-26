@@ -28,7 +28,3 @@ module.exports = class SlapCommand extends Command {
     }
     
 }
-async function getImg(){
-  var resp = await sf.get('https://tnai.ml/sfw/slap')
-  return resp.body.url;
-}
