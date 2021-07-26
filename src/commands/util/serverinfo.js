@@ -8,7 +8,7 @@ module.exports = class ServerInfoCommand extends Command {
             aliases: ['server-info', 'serverinfo'],
             group: 'util',
             memberName: 'serverinfo',
-            description: '`AL: low` Get server info.',
+            description: 'Get server info.',
             details: 'Get server info.',
             guildOnly: true,
             throttling: {
